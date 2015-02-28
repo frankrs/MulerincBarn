@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: a6334a81efe6e1d40a940f347a342ea8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base
+    100002: Boundary
+    100004: Camera
+    100006: Door
+    100008: Doorknob
+    100010: Drainpipe
+    100012: Drainpipe 1
+    100014: Drainpipe 1.001
+    100016: Drainpipe.002
+    100018: Drainpipe.003
+    100020: Frames
+    100022: Glass
+    100024: Glass.001
+    100026: Glass.002
+    100028: Glass.003
+    100030: Glass.004
+    100032: Lamp
+    100034: Lamp.001
+    100036: Lamp.002
+    100038: Lamp.003
+    100040: Left Gate
+    100042: Lower Wall
+    100044: Right Gate
+    100046: Roof
+    100048: Roof Trim
+    100050: Supports
+    100052: Upper Wall
+    100054: //RootNode
+    100056: Window 1
+    100058: Window 2
+    100060: Window 3
+    100062: Window 4
+    400000: Base
+    400002: Boundary
+    400004: Camera
+    400006: Door
+    400008: Doorknob
+    400010: Drainpipe
+    400012: Drainpipe 1
+    400014: Drainpipe 1.001
+    400016: Drainpipe.002
+    400018: Drainpipe.003
+    400020: Frames
+    400022: Glass
+    400024: Glass.001
+    400026: Glass.002
+    400028: Glass.003
+    400030: Glass.004
+    400032: Lamp
+    400034: Lamp.001
+    400036: Lamp.002
+    400038: Lamp.003
+    400040: Left Gate
+    400042: Lower Wall
+    400044: Right Gate
+    400046: Roof
+    400048: Roof Trim
+    400050: Supports
+    400052: Upper Wall
+    400054: //RootNode
+    400056: Window 1
+    400058: Window 2
+    400060: Window 3
+    400062: Window 4
+    2300000: Base
+    2300002: Boundary
+    2300004: Door
+    2300006: Doorknob
+    2300008: Drainpipe
+    2300010: Drainpipe 1
+    2300012: Drainpipe 1.001
+    2300014: Drainpipe.002
+    2300016: Drainpipe.003
+    2300018: Frames
+    2300020: Glass
+    2300022: Glass.001
+    2300024: Glass.002
+    2300026: Glass.003
+    2300028: Glass.004
+    2300030: Left Gate
+    2300032: Lower Wall
+    2300034: Right Gate
+    2300036: Roof
+    2300038: Roof Trim
+    2300040: Supports
+    2300042: Upper Wall
+    2300044: Window 1
+    2300046: Window 2
+    2300048: Window 3
+    2300050: Window 4
+    3300000: Base
+    3300002: Boundary
+    3300004: Door
+    3300006: Doorknob
+    3300008: Drainpipe
+    3300010: Drainpipe 1
+    3300012: Drainpipe 1.001
+    3300014: Drainpipe.002
+    3300016: Drainpipe.003
+    3300018: Frames
+    3300020: Glass
+    3300022: Glass.001
+    3300024: Glass.002
+    3300026: Glass.003
+    3300028: Glass.004
+    3300030: Left Gate
+    3300032: Lower Wall
+    3300034: Right Gate
+    3300036: Roof
+    3300038: Roof Trim
+    3300040: Supports
+    3300042: Upper Wall
+    3300044: Window 1
+    3300046: Window 2
+    3300048: Window 3
+    3300050: Window 4
+    4300000: Drainpipe.003
+    4300002: Boundary
+    4300004: Glass.004
+    4300006: Glass.003
+    4300008: Glass.002
+    4300010: Glass.001
+    4300012: Glass
+    4300014: Drainpipe.002
+    4300016: Doorknob
+    4300018: Door
+    4300020: Base
+    4300022: Frames
+    4300024: Drainpipe 1.001
+    4300026: Drainpipe
+    4300028: Drainpipe 1
+    4300030: Supports
+    4300032: Roof Trim
+    4300034: Roof
+    4300036: Left Gate
+    4300038: Right Gate
+    4300040: Window 4
+    4300042: Window 1
+    4300044: Window 2
+    4300046: Window 3
+    4300048: Upper Wall
+    4300050: Lower Wall
+    6400000: Base
+    6400002: Boundary
+    6400004: Door
+    6400006: Doorknob
+    6400008: Drainpipe
+    6400010: Drainpipe 1
+    6400012: Drainpipe 1.001
+    6400014: Drainpipe.002
+    6400016: Drainpipe.003
+    6400018: Frames
+    6400020: Glass
+    6400022: Glass.001
+    6400024: Glass.002
+    6400026: Glass.003
+    6400028: Glass.004
+    6400030: Left Gate
+    6400032: Lower Wall
+    6400034: Right Gate
+    6400036: Roof
+    6400038: Roof Trim
+    6400040: Supports
+    6400042: Upper Wall
+    6400044: Window 1
+    6400046: Window 2
+    6400048: Window 3
+    6400050: Window 4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .649999976
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
