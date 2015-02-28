@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ColorSwatch : MonoBehaviour {
 
-	public Color[] swatches;
+	public Swatch[] swatches;
 
 
 	public void ChangeColor(Color c){
@@ -11,4 +11,11 @@ public class ColorSwatch : MonoBehaviour {
 		//renderer.material.color = c;
 		renderer.sharedMaterial.SetColor("_Color",c);
 	}
+}
+
+
+[System.Serializable]
+public class Swatch{
+	public string name;
+	public Color color;
 }

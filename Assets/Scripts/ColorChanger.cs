@@ -7,10 +7,11 @@ public class ColorChanger : MonoBehaviour {
 
 	public float sightDist = 7.5f;
 	public Color colorSampled;
-	public Color[] availableColors;
+	public Swatch[] availableSwatches;
 	public LayerMask switchable;
 	public Text matName;
-	public GameObject colorPannel;
+	public Text colorName;
+	public RectTransform colorPannel;
 	public GameObject swatchPrefab;
 	public int swatchIndex = 0;
 	public List<GameObject> swatchObjects;
@@ -33,7 +34,8 @@ public class ColorChanger : MonoBehaviour {
 				}
 
 			if(Input.GetKeyDown("3") && colorPannel.transform.childCount > 0){
-				hit.collider.gameObject.SendMessage("ChangeColor",availableColors[swatchIndex],SendMessageOptions.DontRequireReceiver);
+				hit.collider.gameObject.SendMessage("ChangeColor",availableSwatches[swatchIndex].color,SendMessageOptions.DontRequireReceiver);
+				colorName.text = availableSwatches[swatchIndex].name;
 			}
 
 			if(Input.GetKeyDown("2") && colorPannel.transform.childCount > 0){
@@ -71,6 +73,7 @@ public class ColorChanger : MonoBehaviour {
 			Destroy(s);
 		}
 		swatchObjects.Clear();
+		colorName.text = "";
 	}
 
 
@@ -79,20 +82,21 @@ public class ColorChanger : MonoBehaviour {
 		if (cS == null){
 			return;
 		}
-		availableColors = cS.swatches;
-		foreach(Color c in availableColors){
-			var swatch = GameObject.Instantiate(swatchPrefab,new Vector3(0f,0f,0f),Quaternion.identity) as GameObject;
+		availableSwatches = cS.swatches;
+		foreach(Swatch s in availableSwatches){
+			var swatchObject = GameObject.Instantiate(swatchPrefab,new Vector3(0f,0f,0f),Quaternion.identity) as GameObject;
 			var nC = new Color();
-			nC = c;
-			if(c == availableColors[swatchIndex]){
+			nC = s.color;
+			if(s == availableSwatches[swatchIndex]){
 				nC.a = 1f;
+				colorName.text = availableSwatches[swatchIndex].name;
 			}
 			else{
 				nC.a = .5f;
 			}
-			swatch.GetComponent<Image>().color = nC;
-			swatch.transform.parent = colorPannel.transform;
-			swatchObjects.Add(swatch);
+			swatchObject.GetComponent<Image>().color = nC;
+			swatchObject.transform.SetParent(colorPannel,false);
+			swatchObjects.Add(swatchObject);
 		}
 	}
 
