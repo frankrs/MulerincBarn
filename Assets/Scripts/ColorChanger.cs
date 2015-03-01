@@ -53,7 +53,7 @@ public class ColorChanger : MonoBehaviour {
 		}
 		else{
 			colorSampled = Color.white;
-			matName.text = "Empty";
+			matName.text = "";
 			if(colorPannel.transform.childCount == 0){
 				return;
 			}
