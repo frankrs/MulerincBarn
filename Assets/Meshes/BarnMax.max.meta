@@ -1,74 +1,66 @@
 fileFormatVersion: 2
-guid: a6334a81efe6e1d40a940f347a342ea8
+guid: 1d4c742f0d9980848ac82f1397c63c08
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: Base
-    100002: Boundary
-    100004: Camera
-    100006: Door
-    100008: Doorknob
-    100010: Drainpipe
-    100012: Drainpipe 1
-    100014: Drainpipe 1.001
-    100016: Drainpipe.002
-    100018: Drainpipe.003
-    100020: Frames
-    100022: Glass
-    100024: Glass.001
-    100026: Glass.002
-    100028: Glass.003
-    100030: Glass.004
-    100032: Lamp
-    100034: Lamp.001
-    100036: Lamp.002
-    100038: Lamp.003
-    100040: Left Gate
-    100042: Lower Wall
-    100044: Right Gate
-    100046: Roof
-    100048: Roof Trim
-    100050: Supports
-    100052: Upper Wall
-    100054: //RootNode
-    100056: Window 1
-    100058: Window 2
-    100060: Window 3
-    100062: Window 4
-    100064: WindowFrames
-    400000: Base
-    400002: Boundary
-    400004: Camera
-    400006: Door
-    400008: Doorknob
-    400010: Drainpipe
-    400012: Drainpipe 1
-    400014: Drainpipe 1.001
-    400016: Drainpipe.002
-    400018: Drainpipe.003
-    400020: Frames
-    400022: Glass
-    400024: Glass.001
-    400026: Glass.002
-    400028: Glass.003
-    400030: Glass.004
-    400032: Lamp
-    400034: Lamp.001
-    400036: Lamp.002
-    400038: Lamp.003
-    400040: Left Gate
-    400042: Lower Wall
-    400044: Right Gate
-    400046: Roof
-    400048: Roof Trim
-    400050: Supports
-    400052: Upper Wall
-    400054: //RootNode
-    400056: Window 1
-    400058: Window 2
-    400060: Window 3
-    400062: Window 4
-    400064: WindowFrames
+    100000: //RootNode
+    100002: Base
+    100004: Boundary
+    100006: Camera
+    100008: Door
+    100010: Doorknob
+    100012: Drainpipe
+    100014: Drainpipe 1
+    100016: Drainpipe 1.001
+    100018: Drainpipe.002
+    100020: Drainpipe.003
+    100022: Frames
+    100024: Glass
+    100026: Glass.001
+    100028: Glass.002
+    100030: Glass.003
+    100032: Glass.004
+    100034: Left Gate
+    100036: Lower Wall
+    100038: Right Gate
+    100040: Roof
+    100042: Roof Trim
+    100044: Supports
+    100046: Upper Wall
+    100048: Window 1
+    100050: Window 2
+    100052: Window 3
+    100054: Window 4
+    100056: WindowFrames
+    400000: //RootNode
+    400002: Base
+    400004: Boundary
+    400006: Camera
+    400008: Door
+    400010: Doorknob
+    400012: Drainpipe
+    400014: Drainpipe 1
+    400016: Drainpipe 1.001
+    400018: Drainpipe.002
+    400020: Drainpipe.003
+    400022: Frames
+    400024: Glass
+    400026: Glass.001
+    400028: Glass.002
+    400030: Glass.003
+    400032: Glass.004
+    400034: Left Gate
+    400036: Lower Wall
+    400038: Right Gate
+    400040: Roof
+    400042: Roof Trim
+    400044: Supports
+    400046: Upper Wall
+    400048: Window 1
+    400050: Window 2
+    400052: Window 3
+    400054: Window 4
+    400056: WindowFrames
     2300000: Base
     2300002: Boundary
     2300004: Door
@@ -150,37 +142,10 @@ ModelImporter:
     4300048: Upper Wall
     4300050: Lower Wall
     4300052: WindowFrames
-    6400000: Base
-    6400002: Boundary
-    6400004: Door
-    6400006: Doorknob
-    6400008: Drainpipe
-    6400010: Drainpipe 1
-    6400012: Drainpipe 1.001
-    6400014: Drainpipe.002
-    6400016: Drainpipe.003
-    6400018: Frames
-    6400020: Glass
-    6400022: Glass.001
-    6400024: Glass.002
-    6400026: Glass.003
-    6400028: Glass.004
-    6400030: Left Gate
-    6400032: Lower Wall
-    6400034: Right Gate
-    6400036: Roof
-    6400038: Roof Trim
-    6400040: Supports
-    6400042: Upper Wall
-    6400044: Window 1
-    6400046: Window 2
-    6400048: Window 3
-    6400050: Window 4
-    6400052: WindowFrames
     9500000: //RootNode
   materials:
     importMaterials: 1
-    materialName: 1
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -197,12 +162,12 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .0221999995
+    globalScale: .00999999978
     meshCompression: 0
-    addColliders: 1
-    importBlendShapes: 0
+    addColliders: 0
+    importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     weldVertices: 1
@@ -229,6 +194,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   additionalBone: 0
   userData: 
